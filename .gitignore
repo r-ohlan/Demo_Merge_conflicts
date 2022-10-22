@@ -1,0 +1,7 @@
+.ipynb_checkpoints
+outputs
+models/checkpoints
+models/tarballs
+data
+__pycache__/
+Untitled.ipynb
