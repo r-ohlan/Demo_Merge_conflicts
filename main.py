@@ -8,8 +8,22 @@ from tools.analytical_tools.hog_and_pixel_analysis import Hog_And_Pixels
 # adding some jibber jabber to line 8
 # more gibberish to line 9
 
+# One, two, three, four, five, six! I'll buy them all no matter what the price is
+# We're getting older baby, I've been thinkin about this lately
+# I tried so hard, and got so far, but in the end, it doens't even matter ....
+
+
 from tools.model_tools.network_parsers.shallow_net import Shallow_CNN
 from tools.model_tools.network_parsers.deep_net import Deep_CNN
+# I tried so hard, and got so far, but in the end, it doens't even matter ....
+# I tried so hard, and got so far, but in the end, it doens't even matter ....
+# I tried so hard, and got so far, but in the end, it doens't even matter ....
+# I tried so hard, and got so far, but in the end, it doens't even matter ....
+# I tried so hard, and got so far, but in the end, it doens't even matter ....
+# I tried so hard, and got so far, but in the end, it doens't even matter ....
+# I tried so hard, and got so far, but in the end, it doens't even matter ....
+# I tried so hard, and got so far, but in the end, it doens't even matter ....
+# I tried so hard, and got so far, but in the end, it doens't even matter ....
 from constants import ALEXNET, ALEXNET_PLACES365, GOOGLENET, RESNET101, RESNET18_PLACES365, RESNET50, RESNET152, RESNET18, GRCNN55, OUTPUT_MODELS_PATH, PEARSON_PATH, MODELS, RESNET50_PLACES365, RESNEXT50_32X4D, SHALLOW_MODEL, DEEP_MODEL, VGG16, VGG19
 from constants import DIRECTORIES_FOR_ANALYSIS, START_FILE_NUMBER, END_FILE_NUMBER
 
@@ -21,6 +35,11 @@ from constants import DIRECTORIES_FOR_ANALYSIS, START_FILE_NUMBER, END_FILE_NUMB
 all_args = argparse.ArgumentParser(description="Selects the CNN models and analysis we want to run")
 
 # Default arguments for analyses used in Aminoff et al. (2022) 
+
+
+
+
+
 # Investigate context/category responsiveness in a convolutional neural network by using Pearson's Correlation Coefficient
 # HOG and pixel similarity analysis of the image dataset (needs to be set to 1)
 all_args.add_argument("-run_net_responses", "--run_net_responses", default=1)
